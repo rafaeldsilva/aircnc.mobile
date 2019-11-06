@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "AirCnC",
-    "slug": "aircnc.mobile",
+    "slug": "AirCnC",
     "privacy": "public",
     "sdkVersion": "35.0.0",
     "platforms": [
@@ -11,10 +11,12 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/assets/logo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./src/assets/logo.png",
       "resizeMode": "contain",
+      "height": "32",
+      "alignSelf": "center",
       "backgroundColor": "#ffffff"
     },
     "updates": {
